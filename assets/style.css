@@ -34,11 +34,54 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   flex: 1 1 0;
   max-width: 1200px;
   margin: 2% auto;
 }
 
+#profile-pic {
+  width: 33%;
+  height: 33%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
 #about-me {
-  border-bottom: cadetblue;
+  text-align: center;
+}
+
+#resume {
+  text-align: center;
+}
+
+#my-work {
+  text-align: center;
+}
+
+#my-work ul li {
+  display: inline-block;
+}
+
+#my-work ul:hover {
+  color: cadetblue;
+}
+
+.coming-soon-img-main {
+  width: 50%;
+  height: 50%;
+}
+
+.coming-soon-img-secondary {
+  width: 25%;
+  height: 25%;
+}
+
+.example-1 {
+  text-align: center;
+}
+
+.secondary-img-line {
+  text-align: center;
 }
