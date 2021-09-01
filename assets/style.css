@@ -11,6 +11,10 @@ header {
   color: black;
 }
 
+main {
+  background-color: grey;
+}
+
 h1 {
   font-size: 200%;
 }
@@ -84,4 +88,21 @@ main {
 
 .secondary-img-line {
   text-align: center;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact p {
+  display: inline;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 769px) {
+  header,
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
 }
