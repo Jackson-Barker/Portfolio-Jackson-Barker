@@ -7,12 +7,12 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1%;
-  background-color: grey;
-  color: black;
+  background-color: #cbd9e2;
+  color: #483342;
 }
 
 main {
-  background-color: grey;
+  background-color: #98a4ba;
 }
 
 h1 {
@@ -31,7 +31,12 @@ nav a {
 }
 
 nav a:hover {
-  color: cadetblue;
+  color: #76677c;
+}
+
+.sub-header-img {
+  width: 100%;
+  height: 300px;
 }
 
 main {
@@ -44,12 +49,19 @@ main {
   margin: 2% auto;
 }
 
+.profile-pic-container {
+  float: left;
+  display: inline-flex;
+}
+
 #profile-pic {
   width: 33%;
   height: 33%;
   border-radius: 10px;
   display: flex;
   align-items: center;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 
 #about-me {
@@ -88,6 +100,10 @@ main {
 
 .secondary-img-line {
   text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 #contact {
