@@ -66,10 +66,27 @@ main {
 
 #about-me {
   text-align: center;
+  color: #483342;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#about-me div {
+  margin-bottom: 150px;
+  color: #483342;
+  text-decoration: underline #483342 2px;
+  font-size: 30px;
+}
+
+#resume h3 {
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 #resume {
   text-align: center;
+  margin-top: 50px;
 }
 
 #my-work {
@@ -84,18 +101,38 @@ main {
   color: cadetblue;
 }
 
+#my-work h4 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 .coming-soon-img-main {
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 70%;
+  border-radius: 30px;
+  border: #483342;
+  padding: 10px;
+  border-style: solid;
+  margin-top: 15px;
+  opacity: 25%;
+}
+
+.coming-soon-img-main:hover {
+  opacity: 100%;
 }
 
 .coming-soon-img-secondary {
-  width: 25%;
-  height: 25%;
+  width: 60%;
+  height: 60%;
 }
 
-.example-1 {
+#example-1 {
   text-align: center;
+}
+
+#example-1 h5 {
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
 
 .secondary-img-line {
@@ -104,6 +141,32 @@ main {
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+#example-2 img {
+  margin-left: 35px;
+  border-radius: 15px;
+  padding: 10px;
+  border-color: #483342;
+  border-style: solid;
+  opacity: 25%;
+}
+
+#example-3 img {
+  margin-right: 35px;
+  border-radius: 15px;
+  padding: 10px;
+  border-color: #483342;
+  border-style: solid;
+  opacity: 25%;
+}
+
+#example-2 img:hover {
+  opacity: 100%;
+}
+
+#example-3 img:hover {
+  opacity: 100%;
 }
 
 #contact {
@@ -117,7 +180,8 @@ main {
 
 @media screen and (max-width: 769px) {
   header,
-  nav ul {
+  nav ul,
+  .profile-pic-container {
     flex-direction: column;
     text-align: center;
   }
