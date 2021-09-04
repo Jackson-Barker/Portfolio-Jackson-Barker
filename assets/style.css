@@ -13,6 +13,7 @@ header {
 
 main {
   background-color: #98a4ba;
+  border-radius: 10px;
 }
 
 h1 {
@@ -171,17 +172,29 @@ main {
 
 #contact {
   text-align: center;
+  padding-bottom: 50px;
+  width: 100%;
+  background-color: #483342;
+  color: #98a4ba;
 }
 
-#contact p {
+#contact h6 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+#contact p,
+a {
   display: inline;
   text-decoration: underline;
+  margin: 10px;
+  color: #98a4ba;
 }
 
 @media screen and (max-width: 769px) {
   header,
   nav ul,
-  .profile-pic-container {
+  .profile-pic-container .secondary-img-line {
     flex-direction: column;
     text-align: center;
   }
