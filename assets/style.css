@@ -89,6 +89,9 @@ main {
   text-align: center;
   margin-top: 50px;
 }
+#resume a {
+  color: #483342;
+}
 
 #my-work {
   text-align: center;

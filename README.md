@@ -8,7 +8,11 @@ Jackson Barker
 
 # Portfolio Discription
 
+This portfolio contoans an about me section where vistitors can read a little about my past qualifications. There is a section with links to all my deployed work example followed by a contact section with links to my contact info.
+
 # Usage
+
+This portfolio is for a potential employeer to view my deployed work samples to assess whether I would be a good candidate for an open position.
 
 # Link
 
@@ -18,10 +22,10 @@ Jackson Barker
 
 # Images
 
-Header Image
+Header Image:
 
 ![Header Image](./assets/images/sub-header-img.jpg)
 
-Head Shot Image
+Head Shot Image:
 
 ![Header Image](./assets/images/profilepic.jpg)
