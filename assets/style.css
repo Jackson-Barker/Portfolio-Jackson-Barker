@@ -27,12 +27,12 @@ nav ul {
 }
 
 nav a {
-  color: cornsilk;
+  color: #483342;
   text-decoration: underline;
 }
 
 nav a:hover {
-  color: #76677c;
+  color: #98a4ba;
 }
 
 .sub-header-img {
@@ -194,8 +194,9 @@ a {
 @media screen and (max-width: 769px) {
   header,
   nav ul,
-  .profile-pic-container .secondary-img-line {
+  .profile-pic-container {
     flex-direction: column;
     text-align: center;
+    display: block;
   }
 }
