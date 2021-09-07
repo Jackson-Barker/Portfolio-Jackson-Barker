@@ -20,6 +20,8 @@ This portfolio is for a potential employer to view my deployed work samples to a
 
 # Screen Shot
 
+![Portfolio SC](./assets/images/portfolio-sc.png)
+
 # Images
 
 Header Image:
