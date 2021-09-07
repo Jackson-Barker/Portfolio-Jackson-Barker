@@ -33,6 +33,7 @@ nav a {
 
 nav a:hover {
   color: #98a4ba;
+  background-color: #483342;
 }
 
 .sub-header-img {
@@ -73,8 +74,12 @@ main {
   margin-right: 15px;
 }
 
+#about-me p {
+  line-height: 50px;
+}
+
 #about-me div {
-  margin-bottom: 150px;
+  margin-bottom: 20px;
   color: #483342;
   text-decoration: underline #483342 2px;
   font-size: 30px;
@@ -110,12 +115,12 @@ main {
   font-size: 30px;
 }
 
-#my-work ul li {
-  display: inline-block;
+#my-work ul li a {
+  color: #483342;
 }
 
-#my-work ul:hover {
-  color: #98a4ba;
+#my-work ul li {
+  display: inline-block;
 }
 
 #my-work h4 {
