@@ -89,12 +89,25 @@ main {
   text-align: center;
   margin-top: 50px;
 }
+
+#resume h3 {
+  font-size: 30px;
+  text-decoration: underline;
+  color: #483342;
+}
+
 #resume a {
   color: #483342;
 }
 
 #my-work {
   text-align: center;
+  color: #483342;
+  text-decoration: underline;
+}
+
+#my-work h4 {
+  font-size: 30px;
 }
 
 #my-work ul li {
@@ -102,7 +115,7 @@ main {
 }
 
 #my-work ul:hover {
-  color: cadetblue;
+  color: #98a4ba;
 }
 
 #my-work h4 {
@@ -137,6 +150,7 @@ main {
 #example-1 h5 {
   margin-top: 50px;
   margin-bottom: 25px;
+  color: #483342;
 }
 
 .secondary-img-line {
@@ -144,7 +158,12 @@ main {
   display: inline-flex;
   justify-content: center;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+#example-2 h6 {
+  color: #483342;
+  margin-bottom: 10px;
 }
 
 #example-2 img {
@@ -156,6 +175,15 @@ main {
   opacity: 25%;
 }
 
+#example-2 img:hover {
+  opacity: 100%;
+}
+
+#example-3 h6 {
+  color: #483342;
+  margin-bottom: 10px;
+}
+
 #example-3 img {
   margin-right: 35px;
   border-radius: 15px;
@@ -165,11 +193,51 @@ main {
   opacity: 25%;
 }
 
-#example-2 img:hover {
+#example-3 img:hover {
   opacity: 100%;
 }
 
-#example-3 img:hover {
+.third-img-line {
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+#example-4 h6 {
+  color: #483342;
+  margin-bottom: 10px;
+}
+
+#example-4 img {
+  margin-left: 35px;
+  border-radius: 15px;
+  padding: 10px;
+  border-color: #483342;
+  border-style: solid;
+  opacity: 25%;
+}
+
+#example-4 img:hover {
+  opacity: 100%;
+}
+
+#example-5 h6 {
+  color: #483342;
+  margin-bottom: 10px;
+}
+
+#example-5 img {
+  margin-right: 35px;
+  border-radius: 15px;
+  padding: 10px;
+  border-color: #483342;
+  border-style: solid;
+  opacity: 25%;
+}
+
+#example-5 img:hover {
   opacity: 100%;
 }
 
