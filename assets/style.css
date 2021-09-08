@@ -268,7 +268,7 @@ a {
   }
 }
 
-/* responsive specifications for #profile pic (the image) */
+/* responsive specifications for #profile-pic (the image) */
 @media screen and (max-width: 769px) {
   #profile-pic {
     display: block;
