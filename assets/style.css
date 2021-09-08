@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* display specifications for header */
 header {
   display: flex;
   justify-content: space-between;
@@ -10,37 +10,32 @@ header {
   background-color: #cbd9e2;
   color: #483342;
 }
-
-main {
-  background-color: #98a4ba;
-  border-radius: 10px;
-}
-
+/* "Jackson Barker" font size */
 h1 {
   font-size: 200%;
 }
-
+/* display specifications for nav bar */
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
 }
-
+/* design specifications for nav bar text */
 nav a {
   color: #483342;
   text-decoration: underline;
 }
-
+/* nav bar text hover effect */
 nav a:hover {
   color: #98a4ba;
   background-color: #483342;
 }
-
+/* display specifications for sub header image */
 .sub-header-img {
   width: 100%;
   height: 300px;
 }
-
+/* display and design specifications for main container */
 main {
   display: flex;
   justify-content: center;
@@ -49,13 +44,15 @@ main {
   flex: 1 1 0;
   max-width: 1200px;
   margin: 2% auto;
+  border-radius: 10px;
+  background-color: #98a4ba;
 }
-
+/* display specifications for Profile pic container */
 .profile-pic-container {
   float: left;
   display: inline-flex;
 }
-
+/* display and design specifications for profile pic */
 #profile-pic {
   width: 33%;
   height: 33%;
@@ -65,7 +62,7 @@ main {
   margin-top: 50px;
   margin-left: 50px;
 }
-
+/* design and display specifications for about-me section  */
 #about-me {
   text-align: center;
   color: #483342;
@@ -73,61 +70,54 @@ main {
   margin-left: 15px;
   margin-right: 15px;
 }
-
+/* line spcing specifications for about-me paragraph */
 #about-me p {
   line-height: 50px;
 }
-
+/* text design and display specifications for about-me header */
 #about-me div {
   margin-bottom: 20px;
   color: #483342;
   text-decoration: underline #483342 2px;
   font-size: 30px;
 }
-
-#resume h3 {
-  margin-top: 50px;
-  margin-bottom: 25px;
-}
-
+/* resume container display specifications */
 #resume {
   text-align: center;
   margin-top: 50px;
 }
-
+/* resume header text specifications */
 #resume h3 {
   font-size: 30px;
   text-decoration: underline;
   color: #483342;
+  margin-bottom: 25px;
 }
-
+/* resume link color */
 #resume a {
   color: #483342;
 }
-
+/* dispaly specifications for "my work contianer */
 #my-work {
   text-align: center;
   color: #483342;
   text-decoration: underline;
 }
-
-#my-work h4 {
-  font-size: 30px;
-}
-
+/* text color for list text */
 #my-work ul li a {
   color: #483342;
 }
-
+/* display specifications for thr my work unordered list */
 #my-work ul li {
   display: inline-block;
 }
-
+/* display specifications for "my work" header */
 #my-work h4 {
   margin-top: 50px;
   margin-bottom: 25px;
+  font-size: 30px;
 }
-
+/* styling for main coming soon image  */
 .coming-soon-img-main {
   width: 70%;
   height: 70%;
@@ -138,26 +128,27 @@ main {
   margin-top: 15px;
   opacity: 25%;
 }
-
+/* hover effect for main coming soon image */
 .coming-soon-img-main:hover {
   opacity: 100%;
 }
 
+/* sizing for examples 2-5 */
 .coming-soon-img-secondary {
   width: 60%;
   height: 60%;
 }
-
+/* alignment for #example-1 */
 #example-1 {
   text-align: center;
 }
-
+/* #example-1 text design */
 #example-1 h5 {
   margin-top: 50px;
   margin-bottom: 25px;
   color: #483342;
 }
-
+/* display specifications for examples 2-3 */
 .secondary-img-line {
   text-align: center;
   display: inline-flex;
@@ -165,12 +156,12 @@ main {
   margin-top: 30px;
   margin-bottom: 0px;
 }
-
+/* Example-2 text design */
 #example-2 h6 {
   color: #483342;
   margin-bottom: 10px;
 }
-
+/* example-2 image design */
 #example-2 img {
   margin-left: 35px;
   border-radius: 15px;
@@ -179,16 +170,16 @@ main {
   border-style: solid;
   opacity: 25%;
 }
-
+/* example-2 hover effect */
 #example-2 img:hover {
   opacity: 100%;
 }
-
+/* example-3 text design */
 #example-3 h6 {
   color: #483342;
   margin-bottom: 10px;
 }
-
+/* example-3 image design */
 #example-3 img {
   margin-right: 35px;
   border-radius: 15px;
@@ -197,11 +188,11 @@ main {
   border-style: solid;
   opacity: 25%;
 }
-
+/* example-3 hover effect */
 #example-3 img:hover {
   opacity: 100%;
 }
-
+/* display specifactions for examples 4-5 */
 .third-img-line {
   text-align: center;
   display: inline-flex;
@@ -209,12 +200,12 @@ main {
   margin-top: 0px;
   margin-bottom: 30px;
 }
-
+/* example-4 text design */
 #example-4 h6 {
   color: #483342;
   margin-bottom: 10px;
 }
-
+/* example-4 image design */
 #example-4 img {
   margin-left: 35px;
   border-radius: 15px;
@@ -223,16 +214,16 @@ main {
   border-style: solid;
   opacity: 25%;
 }
-
+/* example-4 hover effect */
 #example-4 img:hover {
   opacity: 100%;
 }
-
+/* example-5 text design */
 #example-5 h6 {
   color: #483342;
   margin-bottom: 10px;
 }
-
+/* example-5 image design */
 #example-5 img {
   margin-right: 35px;
   border-radius: 15px;
@@ -241,11 +232,11 @@ main {
   border-style: solid;
   opacity: 25%;
 }
-
+/* example-5 hover effect */
 #example-5 img:hover {
   opacity: 100%;
 }
-
+/* contact info container */
 #contact {
   text-align: center;
   padding-bottom: 50px;
@@ -253,12 +244,12 @@ main {
   background-color: #483342;
   color: #98a4ba;
 }
-
+/* display specifications for contact header */
 #contact h6 {
   margin-top: 50px;
   margin-bottom: 25px;
 }
-
+/* contact p tags display specifications  */
 #contact p,
 a {
   display: inline;
@@ -266,7 +257,7 @@ a {
   margin: 10px;
   color: #98a4ba;
 }
-
+/* responsive specifications for header,nav ul, and profile pic container */
 @media screen and (max-width: 769px) {
   header,
   nav ul,
@@ -274,5 +265,15 @@ a {
     flex-direction: column;
     text-align: center;
     display: block;
+  }
+}
+
+/* responsive specifications for #profile pic (the image) */
+@media screen and (max-width: 769px) {
+  #profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
